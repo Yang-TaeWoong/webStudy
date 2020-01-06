@@ -2,13 +2,28 @@
 
 * * *  
 
-##### edwith project 
+##### git part
+* * *
+- git add
 
+- git commit
 
+- git push
+
+###### error
+
+    
+
+* * *
 ##### html part
 * * *
+* * *
+
 ##### javaScript part
 * * *
+
+* * *
+
 ##### jsp part  
 * * *
 - 모든 jsp는 서블릿으로 바뀌어서 동작한다  
@@ -41,7 +56,7 @@
 - jsp는 주석이 세가지 종류 사용이 가능한데, jsp, java, html 주석을 사용할 수 있다.
 
     - jsp 주석 : <%-- --%>
-        - jsp 주석은  
+        - jsp 주석은    
     - html 주석:  <-- -->
         - 
     - java 주석 : //, /* */ 
@@ -52,6 +67,11 @@
 * * *
     
 ###### markDown part
-
+* * *
+- 리스트 생성
+    - "-"를 사용. 
+    - 하위 목록을 만들때는 들여쓰기를 한다.
+    
+* * *
 
 
