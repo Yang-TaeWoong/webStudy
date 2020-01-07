@@ -1,3 +1,4 @@
+
 ##### edwith강의를 수강하면서 배운 지식들
 
 * * *  
@@ -76,4 +77,35 @@
     
 * * *
 
+###### network
+- redirect
+    - 302코드
+    - location header value = redirect destination url
+    - 응답객체와 수신 객체 두개가 만들어진다.
+- forward
+    - client가 리퀘스트를 주면 그걸 하나의 servlet에서 처리하는 게 아니라  
+    다른 servlet으로 넘기고 받은 서블릿이 처리해서 client로 돌아감. 이 과정을 forward 라고 한다.
+    - forward와 redirect의 차이점
+        - url이 변하지 않는다.
+        - forward의 경우 request, response 객체가 한번 만들어진다.(요청이 한번임) 
+        - redirect의 경우 요청이 여러번 왔다갔다함. 따라서 request, request객체가 여러번 생성된다.
+   
+###### servlet
 
+* * *
+
+- <servlet-mapping>
+    - <servlet-name>
+        - url 패턴이 일치하면 이 이름을 가지는 servlet 으로 이동한다.
+    - <url-pattern>
+        - url 패턴을 등록한다.
+        - 여기서 찾지 못하면 페이지에 404 오류를 띄운다.
+        
+- <servlet>
+    - <description>
+        - 설명 
+    - <display-name>
+        - url pattern이 일치하는게 들어오면 servlet-name이 같은 서블릿을 찾아서 <servlet-class> '패키지이름.파일명'을 실행시킨다.
+ 
+    
+* * *
