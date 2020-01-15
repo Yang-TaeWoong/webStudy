@@ -2,10 +2,10 @@
 <!-- pageEncoding 부분은 jsp파일 자체가 utf - 8 로 되어있음을 알려주는 부분 -->
 <!-- 이런 설정들은 jsp를 실행하는 was에서 확인 -->
 <%@ page language="java" contentType = "text/html; charset=utf-8" pageEncoding= "UTF-8" %>
-<%@ page import="example.*" %> 
 
 <%
     int total = 0;
+    
     for(int i=1;i<=10;i++){
         total+=i;
     }
